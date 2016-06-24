@@ -1,0 +1,107 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400,700';
+
+.hero{
+	background: url(../images/background-hero.png) no-repeat;
+	background-size: cover;
+	height: 600px;
+	padding: 60px 0 0 0;
+	color: #FFF;
+	text-align: center;
+}
+
+.hero h1{
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	font-size: 3.4em;
+}
+
+.hero h2{
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	font-size: 1.6em;
+}
+
+.hero img.arrow{
+	margin: 80px 0 0 0;
+}
+
+.search{
+	margin: 60px 0 0 0;
+}
+
+.search .btn, .search input[type="text"]{
+	border-radius:0;
+}
+
+.search .btn{
+	margin: 0 0 0 -10px;
+}
+
+.topo{
+	min-height: 110px;
+}
+
+.menu a{
+	color: #FFF;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: transparent;
+}
+
+.menu a.sign-up{
+	border: solid 2px #FFF;
+}
+
+.menu a.sign-up:hover{
+	background-color: rgba(0,0,0,.3);
+	color: #FFF;
+}
+
+.title-section{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	color: #20292f;
+	padding: 40px 0;
+}
+
+footer{
+	margin:40px 0 0 0;
+}
+
+footer, footer a{
+	color: #FFF;
+}
+
+footer .information{
+	background-color: #ba3232;
+	padding: 40px 0;
+}
+
+footer .allright{
+	background-color: #b12425;
+	padding: 20px 0;
+}
+
+.social h4{
+	font-weight: normal;
+}
+
+.social li:first-child{
+	float: none;
+}
+
+.social.nav>li>a{
+	padding: 0px 10px 0 0;
+}
+
+footer .nav>li>a{
+	padding: 2px 15px;
+}
+
+
+.icon-bar{
+	background-color: #FFF;
+	height: 3px;
+}
