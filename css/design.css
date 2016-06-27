@@ -4,7 +4,7 @@
 	background: url(../images/background-hero.png) no-repeat;
 	background-size: cover;
 	height: 600px;
-	padding: 60px 0 0 0;
+	padding: 40px 0 0 0;
 	color: #FFF;
 	text-align: center;
 }
@@ -38,7 +38,7 @@
 }
 
 .topo{
-	min-height: 110px;
+	/*min-height: 110px;*/
 }
 
 .menu a{
@@ -56,6 +56,31 @@
 .menu a.sign-up:hover{
 	background-color: rgba(0,0,0,.3);
 	color: #FFF;
+}
+
+
+.hero-detail{
+	background: url(../images/bg-estabelecimento.png) no-repeat;
+	background-size: cover;
+	height: 350px;
+	padding: 40px 0 0 0;
+	color: #FFF;
+}
+
+.hero-detail h1{
+	margin:0;
+}
+
+.hero-detail h2{
+	margin:5px 0 0 0;
+}
+
+.hero-detail p{
+	margin: 5px 0;
+}
+
+.hero-detail a.location{
+	color:#f4e827;
 }
 
 .title-section{
@@ -104,4 +129,8 @@ footer .nav>li>a{
 .icon-bar{
 	background-color: #FFF;
 	height: 3px;
+}
+
+.item-menu{
+	background: #FFF;
 }
