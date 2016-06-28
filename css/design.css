@@ -88,6 +88,35 @@
 	border: solid 5px #FFF;
 }
 
+
+.hero-kitchen{
+	background-size: cover;
+	height: 350px;
+	padding: 40px 0 0 0;
+	color: #FFF;
+}
+
+.hero-kitchen h1{
+	margin: 135px 0 0 0;
+}
+
+.hero-kitchen h2{
+	margin: 10px 0 0 0;
+	font-size: 1.4em;
+}
+
+#search-kitchen{
+	margin: 40px 0 0;
+}
+
+#search-kitchen .sidebar{
+	margin: 0;
+}
+
+.hero-kitchen.pizza{
+	background: url(../images/bg-pizzas.png) no-repeat;
+}
+
 .title-section{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
@@ -152,4 +181,14 @@ footer .nav>li>a{
 	background: url(../images/map-exemple.png) no-repeat;
 	background-size: cover;
 	height: 350px;
+}
+
+.panel-body.search-kitchen{
+	padding-top: 0;
+	position: relative;
+}
+
+.panel-body.search-kitchen img.status{
+	margin:10px 0 0 0;
+	position: relative;
 }
