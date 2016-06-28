@@ -83,6 +83,10 @@
 	color:#f4e827;
 }
 
+.logo-estabelecimento{
+	border: solid 5px #FFF;
+}
+
 .title-section{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
